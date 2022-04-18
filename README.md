@@ -3,9 +3,9 @@
 
 In this web App you can: 
 
-    * Create an account.
-    * Create, visualize, update and delete your tasks.
-    * Update your profile data.
+* Create an account.
+* Create, visualize, update and delete your tasks.
+* Update your profile data.
 
 
 ## Getting Started
