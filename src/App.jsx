@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.scss";
 import Login from "./Components/Login";
 import Todo from "./Components/Todo";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Provider from "./Components/Context/Provider";
 import { SnackbarProvider } from "notistack";
 
@@ -15,6 +15,7 @@ function App() {
 					<Routes>
 						<Route path="/to-do-react" element={<Login />} />
 						<Route path="/to-do-react/todo" element={<Todo />} />
+						<Route path="*" element={<Navigate to="/" replace />} />
 					</Routes>
 				</Provider>
 			</SnackbarProvider>
