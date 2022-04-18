@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { LogoutUser } from "../../FetchFunctions";
 
 const DecisionModal = ({ open, setOpen, action, title, buttonName }) => {
-	const navigate = useNavigate();
 	const [loading, setLoading] = useState(false);
 	const handleAction = async () => {
 		setLoading(true);

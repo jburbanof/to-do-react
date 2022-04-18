@@ -45,7 +45,7 @@ const Login = () => {
 		if (response.user) {
 			setIsLog(true);
 			setUserData(response);
-			navigate("/todo");
+			navigate("/to-do-react/todo");
 		} else {
 			enqueueSnackbar("Error", {
 				variant: "error",
@@ -58,7 +58,7 @@ const Login = () => {
 		if (response.user) {
 			setIsLog(true);
 			setUserData(response);
-			navigate("/todo");
+			navigate("/to-do-react/todo");
 		} else {
 			enqueueSnackbar("Wrong data", {
 				variant: "error",

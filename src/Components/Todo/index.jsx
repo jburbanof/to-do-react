@@ -41,11 +41,11 @@ const Todo = () => {
 	};
 	const logout = async () => {
 		const response = await LogoutUser(userData.token);
-		navigate("/");
+		navigate("/to-do-react");
 	};
 	useEffect(() => {
 		if (!isLog) {
-			return navigate("/");
+			return navigate("/to-do-react");
 		}
 	}, [isLog]);
 	

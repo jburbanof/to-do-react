@@ -13,8 +13,8 @@ function App() {
 			<SnackbarProvider maxSnack={3}>
 				<Provider>
 					<Routes>
-						<Route path="/" element={<Login />} />
-						<Route path="todo" element={<Todo />} />
+						<Route path="/to-do-react" element={<Login />} />
+						<Route path="/to-do-react/todo" element={<Todo />} />
 					</Routes>
 				</Provider>
 			</SnackbarProvider>

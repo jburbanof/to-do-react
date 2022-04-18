@@ -6,7 +6,6 @@ import {
 	TextField,
 } from "@mui/material";
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { CreateTask } from "../../FetchFunctions";
 
 const CreateTaskModal = ({ open, setOpen, data, refresh }) => {
